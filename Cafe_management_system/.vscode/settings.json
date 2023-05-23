@@ -1,0 +1,30 @@
+{
+    "python.analysis.typeCheckingMode": "off",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "xprotocol"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "MY SQL",
+            "database": "restuarant",
+            "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "MY SQL",
+            "database": "restaurant",
+            "username": "root",
+            "password": ""
+        }
+    ]
+}
