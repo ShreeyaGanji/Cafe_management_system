@@ -127,7 +127,7 @@ class PrintOrders(tk.Toplevel):
             ind += 1
         total_price = f"<span style='top:{170+(len(tags) * 40)}pt; left:85pt; position:absolute; font-size:20pt;'>Total: total ordered products {tot_q}, total price to be paid: {tot_p}</span>"
         
-        with open("C:\\Users\\SHREEYA\\Desktop\\RestaurantManagementSystemV0.1.1-main-master\\RestaurantManagementSystemV0.1.1-main\\order_template.html") as html_doc:
+        with open("C:\\Users\\SHREEYA\\Desktop\\Cafe_management_system\\Cafe_management_system\\order_template.html") as html_doc:
             doc = BeautifulSoup(html_doc, 'html.parser')
             doc.find(text="Fac_name").replace_with(f"\"{self.fac_info[0]}\"")
             doc.find(text="t_num").replace_with(f"Table №{self.t_num}")
