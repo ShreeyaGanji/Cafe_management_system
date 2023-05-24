@@ -1,10 +1,10 @@
 Introduction -
 
-Restaurants nowadays require modern solutions to handle daily tasks.
+Cafe nowadays require modern solutions to handle daily tasks.
 
-Features  of this Restaurant Management System  are -
+Features  of this Cafe Management System  are -
 
-Store the configuration of the given restaurant and its menu to easily handle reservations and orders
+Store the configuration of the given cafe and its menu to easily handle reservations and orders
 
 Create and store orders for the requested tables
 
