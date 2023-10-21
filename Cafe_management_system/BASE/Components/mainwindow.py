@@ -14,7 +14,7 @@ class MainWindow(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        self.win_width = 600
+        self.win_width = 800
         self.win_height = 400
         screen_width = self.winfo_screenwidth()
         screen_height = self.winfo_screenheight()
@@ -26,7 +26,7 @@ class MainWindow(tk.Tk):
         self.resizable(0, 0)
         self.title('CAFE MANAGEMENT SYSTEM')
 
-        self.m_frame = ttk.Frame(self, width=600, height=400)
+        self.m_frame = ttk.Frame(self, width=800, height=400)
         self.m_frame.grid(row=0, column=0,  sticky=tk.NSEW)
 
         self.iconphoto(True, tk.PhotoImage(file='C:\\Users\\SHREEYA\\Desktop\\Cafe_management_system\\Cafe_management_system\\assets\\icon_m.png'))
