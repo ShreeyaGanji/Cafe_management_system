@@ -10,8 +10,8 @@ class KitchenWindow(tk.Toplevel):
         self.func = func
         self.init_database()
         
-        self.win_width = 930
-        self.win_height = 670
+        self.win_width = 980
+        self.win_height = 690
         screen_width = self.winfo_screenwidth()
         screen_height = self.winfo_screenheight()
 
